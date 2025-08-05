@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FRESH ROOTS</title>
+    <link rel="icon" type="image/png" href="favi.png" width="200px" height="800px">
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Open+Sans&display=swap"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+</head>
+
+<body>
+    <div class="main" id="home">
+        <hr size="2" color="white">
+        <header>
+            <div class="navbar" id="home">
+                <div class="logo">
+                    <img src="logo 1.png" alt="Fresh Roots Logo" />
+                </div>
+
+                <div class="nav-content">
+                    <ul class="links">
+                        <li class="active"><a href="home.html">HOME</a></li>
+                        <li><a href="guides.html">GUIDES</a></li>
+                        <li><a href="kits.html">KITS</a></li>
+                        <li><a href="community.html">COMMUNITY</a></li>
+                    </ul>
+                    <a href="community.html#contact" class="action_btn">SEND SUCCESS STORIES <i
+                            class="fa-solid fa-paper-plane"></i></a>
+                </div>
+        </header>
+        <hr size="8" color="white">
+        <div class="container">
+            <div class="text">
+                <h1>Grow Your Green Paradise</h1>
+                <p>
+                    Discover the joy of gardening with expert guidance, community support,
+                    and sustainable practices that nurture both plants and planet.
+                </p>
+                <a href="home.html#smart" class="button">Start Planting Today <i class="fa-solid fa-arrow-right"></i>
+                </a>
+            </div>
+            <div class="image">
+                <img src="26.jpeg" alt="Colorful garden with flowers" />
+            </div>
+            <br>
+            <div class="about" id="about">
+                <section class="about-section">
+                    <h2 class="about-title"> Fresh Roots – Grow Your Way to Wellness</h2>
+                    <div class="about-content">
+                        <div class="text-column">
+                            <p class="mission-text">
+                                At Fresh Roots, we believe that planting a seed is more than just growing food it's
+                                about
+                                nurturing your
+                                health, your mind, and your spirit.
+
+                                <br><br>In today’s fast-paced, 9-to-5 lifestyle, it's easy to feel disconnected from
+                                nature
+                                and
+                                overwhelmed by
+                                screens and schedules. That’s why Fresh Roots is here to help you reconnect with the
+                                earth,
+                                one plant at a
+                                time.
+
+                                Whether it’s a pot of mint on your windowsill or a balcony full of veggies, growing your
+                                own
+                                food brings
+                                you
+                                closer to what truly matters:<br>
+                            <ul>
+                                <li>Wholesome nutrition</li><br>
+                                <li>Peaceful moments away from the hustle</li><br>
+                                <li>A daily dose of natural therapy</li><br>
+                            </ul>
+
+                            Gardening isn’t just for farmers it’s for everyone. It’s for the busy professional seeking
+                            calm,
+                            the student
+                            finding focus, and the family looking to eat better and live cleaner.
+                            Fresh Roots is your companion on this green journey because healthier lives begin with
+                            homegrown
+                            roots.
+                            </p>
+                            <div class="stats">
+                                <div class="stat">
+                                    <h4>500K+</h4>
+                                    <p>Active Gardeners</p>
+                                </div>
+                                <div class="stat">
+                                    <h4>2M+</h4>
+                                    <p>Plants Grown</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="image-column">
+                            <img src="community2.jpg" alt="Gardening Team">
+                        </div>
+                    </div>
+                </section>
+            </div>
+            <div class="smart" id="smart">
+                <hr size="2" color="white">
+                <div class="containers">
+                    <h1>Smart Planting Assistant</h1>
+                    <p class="description">
+                        Get the best planting recommendations based on your location, season,
+                        garden type, and skill level.
+                    </p>
+
+                    <form>
+                        <div class="form-group">
+                            <label for="location"><i class="fas fa-map-marker-alt"></i> Your Location</label>
+                            <input type="text" id="location" name="location" placeholder="Enter your city" required />
+                        </div>
+
+                        <div class="form-group">
+                            <label for="season"><i class="fas fa-calendar-alt"></i> Season</label>
+                            <select id="season" name="season" required>
+                                <option value="" disabled selected hidden>
+                                    Choose Season type
+                                </option>
+                                <option value="spring">Spring</option>
+                                <option value="summer">Summer</option>
+                                <option value="autumn">Autumn</option>
+                                <option value="winter">Winter</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="garden"><i class="fas fa-seedling"></i> Garden Type</label>
+                            <select id="garden" name="garden" required>
+                                <option value="" disabled selected hidden>
+                                    Choose your Garden Type
+                                </option>
+                                <option value="container">Container Gardening</option>
+                                <option value="vertical">Vertical Gardening</option>
+                                <option value="rooftop">Rooftop Gardening</option>
+                                <option value="hydroponic">Hydroponic Gardening</option>
+                                <option value="community">Community Gardening</option>
+                                <option value="raisedbed">Raised Bed Gardening</option>
+                                <option value="indoor">Indoor Gardening</option>
+                                <option value="balcony">Balcony Gardening</option>
+                                <option value="kitchenherbs">Kitchen Herb Garden</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="experience"><i class="fas fa-user-graduate"></i> Experience Level</label>
+                            <select id="experience" name="experience" required>
+                                <option value="" disabled selected hidden>
+                                    Choose Experience Level
+                                </option>
+                                <option value="beginner">Beginner</option>
+                                <option value="intermediate">Intermediate</option>
+                                <option value="expert">Expert</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email"><i class="fas fa-envelope"></i> Email</label>
+                            <input type="email" id="email" name="email" placeholder="you@example.com" required />
+                        </div>
+
+                        <div class="form-buttons">
+                            <button type="submit">
+                                <i class="fas fa-leaf"></i> Get Recommendations
+                            </button>
+                            <button type="reset" class="reset-btn">
+                                <i class="fas fa-undo"></i> Reset
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <footer class="footer">
+            <div class="footer-container">
+                <div class="footer-column">
+                    <h3>Company</h3>
+                    <ul>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="kits.html">Shop</a></li>
+                        <li><a href="#">Our Services</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Services</h3>
+                    <ul>
+                        <li><a href="home.html">Home</a></li>
+                        <li><a href="guides.html">Guides</a></li>
+                        <li><a href="kits.html">Kits</a></li>
+                        <li><a href="community.html">Community</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Kits</h3>
+                    <ul>
+                        <li><a href="#">Indoor Collection</a></li>
+                        <li><a href="#">Outdoor Collection</a></li>
+                        <li><a href="#">Starter Collection</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Follow Us</h3>
+                    <div class="social-icons">
+                        <a href="#" class="facebook"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="twitter"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="whatsapp"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <hr size="10" color="white">
+        <div class="footerbottom">
+            <p>Copyright &copy;2025;Designed By<span class="designer"> CodeCrafters
+        </div>
+    </div>
+</body>
+
+</html>
